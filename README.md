@@ -31,6 +31,7 @@ The **Proxy Pattern** is used to:
 ### Run Demo
 ```bash
 Run ProxyDemo.java
+```
 
 # Flyweight Pattern – Map Marker Optimization
 
@@ -67,5 +68,6 @@ The **Flyweight Pattern** lets us share common style objects across multiple mar
 ---
 
 ### Demo Output
-Run `FlyweightDemo.java`:
+```bash
+Run FlyweightDemo.java
 
