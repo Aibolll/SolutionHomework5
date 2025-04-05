@@ -33,7 +33,7 @@ The **Proxy Pattern** is used to:
 Run ProxyDemo.java
 ```
 
-# Flyweight Pattern – Map Marker Optimization
+## 2. Flyweight Pattern – Map Marker Optimization
 
 ### Real-World Scenario
 You're building a map application that renders **thousands of location markers** — gas stations, hospitals, restaurants, etc. Each of these locations uses styles like icon type, color, and label style, which are often **repeated** across many markers.
