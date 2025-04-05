@@ -33,6 +33,8 @@ The **Proxy Pattern** is used to:
 Run ProxyDemo.java
 ```
 
+---
+
 ## 2. Flyweight Pattern – Map Marker Optimization
 
 ### Real-World Scenario
