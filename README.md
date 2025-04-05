@@ -1,4 +1,4 @@
-# 🎯 Design Patterns Homework: Proxy & Flyweight
+# Design Patterns Homework: Proxy & Flyweight
 
 This project demonstrates the use of two structural design patterns in Java:
 
