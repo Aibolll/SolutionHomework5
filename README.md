@@ -31,3 +31,41 @@ The **Proxy Pattern** is used to:
 ### Run Demo
 ```bash
 Run ProxyDemo.java
+
+# Flyweight Pattern – Map Marker Optimization
+
+### Real-World Scenario
+You're building a map application that renders **thousands of location markers** — gas stations, hospitals, restaurants, etc. Each of these locations uses styles like icon type, color, and label style, which are often **repeated** across many markers.
+
+---
+
+### Problem
+Storing a full set of style data for every marker wastes memory:
+- Thousands of objects with **duplicated style data**
+- Performance issues on large-scale maps
+
+---
+
+### Solution – Flyweight Pattern
+The **Flyweight Pattern** lets us share common style objects across multiple markers:
+- Created shared, **immutable style objects** (`MarkerStyle`)
+- Centralized style management via a **factory** (`MarkerStyleFactory`)
+- Each `MapMarker` holds only a reference to a shared style + its location
+
+---
+
+### Structure
+
+### Classes:
+- `MarkerStyle` – Flyweight class (shared object with icon + color)
+- `MarkerStyleFactory` – Manages and reuses `MarkerStyle` instances
+- `MapMarker` – Concrete object with unique location + shared style
+- `FlyweightDemo` – Creates and renders a large number of markers
+
+### Package: `flyweight`
+
+---
+
+### Demo Output
+Run `FlyweightDemo.java`:
+
